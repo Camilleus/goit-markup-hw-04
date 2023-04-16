@@ -67,8 +67,11 @@ h1 {
     font-weight: normal;
     margin-top: 5px;
 }
+h2 {
+     font-size: 25px;
+}
 a {
-    
+    text-decoration: none;
 }
 .card img {
     margin-bottom: 10px;
