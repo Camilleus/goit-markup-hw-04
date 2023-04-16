@@ -37,6 +37,9 @@ nav {
 .desc {
     align-items: center;
 }
+.sub-desc {
+    align-items: center;
+}
 
 .card-container {
     align-items: center;
@@ -64,7 +67,9 @@ h1 {
     font-weight: normal;
     margin-top: 5px;
 }
-
+a {
+    
+}
 .card img {
     margin-bottom: 10px;
 }
