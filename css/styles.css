@@ -30,17 +30,29 @@ nav {
     gap: 20px;
 }
 
-.hero {}
+.hero {
+    align-items: center;
+}
 
-.desc {}
+.desc {
+    align-items: center;
+}
 
-.card-container {}
+.card-container {
+    align-items: center;
+}
 
-.card {}
+.card {
+    align-self: center;
+}
 
-footer {}
+footer {
+    bottom: 160px;
+}
 
-address {}
+address {
+    align-items: normal;
+}
 
 section {
     margin: 40px 0;
