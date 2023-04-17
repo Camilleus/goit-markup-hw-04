@@ -13,7 +13,7 @@ html {
     --light-color: #f5f5f5;
     --dark-color: #212121;
     --black-color: #000000;
-    --footer-color:#2F303A;
+    --footer-color: #2F303A;
 }
 
 /* default settings */
@@ -35,6 +35,23 @@ header {
     letter-spacing: 6%;
 }
 
+/* logo settings */
+.logo {
+    Font-family: Raleway;
+    Font size: 26px;
+    Line height: 31px;
+    Line height: 100%;
+    Align: Left Vertical;
+    align: Top;
+    Letter-spacing: 3%;
+    color: var(--primary-color);
+}
+
+.logo::after {
+    content: attr(data-end);
+    color: var(--black-color);
+}
+
 /* navigation settings */
 nav {
     display: flex;
@@ -44,22 +61,6 @@ nav {
 nav a:last-child {
     margin-left: auto;
 }
-
-/* links settings */
-a {
-    text-decoration: none;
-}
-
-/* logo settings */
-.logo {
-    color: var(--primary-color);
-}
-
-.logo::after {
-    content: attr(data-end);
-    color: var(--black-color);
-}
-
 
 .agency {
     color: var(--primary-color);
@@ -79,6 +80,11 @@ a {
 
 .h-tel {
     color: var(--secondary-color);
+}
+
+/* links settings */
+a {
+    text-decoration: none;
 }
 
 /* button settings */
@@ -129,15 +135,26 @@ button {
 
 /* footer settings */
 footer {
-    background-color:var(--footer-color);
+    background-color: var(--footer-color);
     height: 252px;
-    top:2097px;
+    top: 2097px;
     bottom: 160px;
 }
 
 address {
     align-items: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
 }
+
+.f-link {}
+
+.f-mail {}
+
+.f-tel {}
 
 /* section settings */
 section img {
@@ -145,6 +162,7 @@ section img {
     margin: 20px 0;
     max-width: 100%;
 }
+
 section {
     margin: 40px 0;
     text-align: center;
@@ -167,13 +185,6 @@ h1 {
 h2 {
     font-size: 25px;
 }
-
-
-.f-link {}
-
-.f-mail {}
-
-.f-tel {}
 
 ul {
     list-style-type: none;
