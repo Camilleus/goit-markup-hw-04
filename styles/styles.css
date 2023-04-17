@@ -35,7 +35,18 @@ nav {
     gap: 20px;
 }
 
-.logo {}
+a {
+    text-decoration: none;
+}
+
+.logo{
+    color: var(--primary-color);
+}
+.logo::after {
+    content: attr(data-end);
+    color: var(--black-color);
+}
+
 
 
 .agency {
@@ -105,10 +116,6 @@ h1 {
 
 h2 {
     font-size: 25px;
-}
-
-a {
-    text-decoration: none;
 }
 
 .card img {
