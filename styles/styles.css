@@ -113,11 +113,11 @@ button {
     height: 600px;
     color: var(--light-color);
     background-color: var(--dark-color);
-        background-size: cover;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* Style the description section */
@@ -163,23 +163,41 @@ footer {
     background-color: var(--footer-color);
     height: 252px;
     top: 2097px;
-    bottom: 160px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 50px;
 }
 
 address {
     align-items: normal;
-    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 3%;
+    text-decoration: none;
+    font-style: normal;
+    Font family: Roboto;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line height: 24px;
+    Line-height: 146%;
+    Align: Left Vertical;
+    align: Top;
+    Letter-spacing: 3%;
 }
 
-.f-link {}
+.f-link {
+    color: #FFFFFF;
+}
 
-.f-mail {}
+.f-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
 
-.f-tel {}
+.f-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /* section settings */
 section img {
@@ -233,7 +251,6 @@ main h1+a {
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.2s ease-in-out;
 }
 
 main h2+a {
@@ -246,7 +263,6 @@ main h2+a {
     text-align: center;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.2s ease-in-out;
 }
 
 .card {
@@ -261,7 +277,6 @@ main h2+a {
     background-color: var(--light-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: box-shadow 0.2s ease-in-out;
 }
 
 .card-text {
