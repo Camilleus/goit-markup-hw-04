@@ -181,7 +181,7 @@ address {
     letter-spacing: 3%;
     text-decoration: none;
     font-style: normal;
-    Font family: Roboto;
+    Font-family: Roboto;
     Font-style: Regular;
     Font-size: 14px;
     Line height: 24px;
@@ -278,7 +278,6 @@ main h2+a {
     margin-right: 10px;
     /* add some spacing between the cards */
     margin: 10px;
-    padding: 10px;
     background-color: var(--light-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -290,8 +289,9 @@ main h2+a {
 }
 
 .card img {
-
+    place-self: top;
     margin-bottom: 10px;
+    margin-top: 0%;
 }
 
 .card-container {
@@ -341,7 +341,7 @@ main h2+a {
     Line-height: 139%;
     Align: Center Vertical;
     align: Top;
-    Letter-spacing: 3% ;
+    Letter-spacing: 3%;
     color: #212121;
     background-color: #F5F4FA;
     width: 76px;
@@ -349,4 +349,27 @@ main h2+a {
     border-radius: 4px;
     border: none;
 }
+
+li div h6 {
+    color: #212121;
+    Font family: Roboto;
+    Font-style: Bold;
+    Font-size: 18px;
+    Line-height: 36px;
+    Line-height: 171%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 6%;
+}
+
+li div p {
+    color: #757575;
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 160%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
 }
