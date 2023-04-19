@@ -45,7 +45,7 @@ header {
 }
 
 /* logo settings */
-.logo {
+.logo-h {
     Font-family: Raleway;
     Font size: 26px;
     Line height: 31px;
@@ -56,9 +56,25 @@ header {
     color: var(--primary-color);
 }
 
-.logo::after {
+.logo-f {
+    Font-family: Raleway;
+    Font size: 26px;
+    Line height: 31px;
+    Line height: 100%;
+    Align: Left Vertical;
+    align: Top;
+    Letter-spacing: 3%;
+    color: var(--primary-color);
+}
+
+.logo-h::after {
     content: attr(data-end);
     color: var(--black-color);
+}
+
+.logo-f::after {
+    content: attr(data-end);
+    color: #FFFFFF;
 }
 
 /* navigation settings */
@@ -106,6 +122,17 @@ button {
     border: none;
     top: 430px;
     left: 700px;
+}
+
+.button1 {
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 160%;
+    Align: Center;
+    Vertical-align: Center;
+    Letter-spacing: 6%;
 }
 
 /* hero section settings */
