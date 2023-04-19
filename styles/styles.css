@@ -234,13 +234,14 @@ ul {
     margin: 0;
     padding: 0;
     align-items: center;
+
 }
 
 li {
     list-style: none;
     margin: 0;
     padding: 0;
-
+    align-items: center;
 }
 
 /* Style the team section */
@@ -293,3 +294,4 @@ main h2+a {
     align-items: center;
     padding: 10px 20px;
 }
+
