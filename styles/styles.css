@@ -46,22 +46,22 @@ header {
 /* logo settings */
 .logo-h {
     Font-family: Raleway;
-    Font size: 26px;
-    Line height: 31px;
-    Line height: 100%;
-    Align: Left Vertical;
-    align: Top;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    align-self: Left Vertical;
+    align-self: Top;
     Letter-spacing: 3%;
     color: var(--primary-color);
 }
 
 .logo-f {
     Font-family: Raleway;
-    Font size: 26px;
-    Line height: 31px;
-    Line height: 100%;
-    Align: Left Vertical;
-    align: Top;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    align-self: Left Vertical;
+    align-self: Top;
     Letter-spacing: 3%;
     color: var(--primary-color);
 }
@@ -130,7 +130,7 @@ button {
     Font-size: 16px;
     Line-height: 30px;
     Line-height: 160%;
-    Align: Center;
+    align-self: Center;
     Vertical-align: Center;
     Letter-spacing: 6%;
 }
@@ -211,10 +211,10 @@ address {
     Font-family: Roboto;
     Font-style: Regular;
     Font-size: 14px;
-    Line height: 24px;
+    Line-height: 24px;
     Line-height: 146%;
-    Align: Left Vertical;
-    align: Top;
+    align-self: Left Vertical;
+    align-self: Top;
     Letter-spacing: 3%;
 }
 
@@ -345,13 +345,13 @@ main h2+a {
 }
 
 .portfoliobutton1 {
-    Font family: Roboto;
+    Font-family: Roboto;
     Font-style: Medium;
     Font-size: 16px Line;
     height: 26px;
     Line-height: 139%;
-    Align: Center Vertical;
-    align: Top;
+    align-self: Center Vertical;
+    align-self: Top;
     color: #E5E5E5;
     background-color: var(--primary-color);
     width: 76px;
@@ -361,13 +361,13 @@ main h2+a {
 }
 
 .portfoliobutton2 {
-    Font family: Roboto;
+    Font-family: Roboto;
     Font-style: Medium;
     Font-size: 16px Line;
     height: 26px;
     Line-height: 139%;
-    Align: Center Vertical;
-    align: Top;
+    Align-self: Center Vertical;
+    align-self: Top;
     Letter-spacing: 3%;
     color: #212121;
     background-color: #F5F4FA;
@@ -379,12 +379,12 @@ main h2+a {
 
 li div h6 {
     color: #212121;
-    Font family: Roboto;
+    Font-family: Roboto;
     Font-style: Bold;
     Font-size: 18px;
     Line-height: 36px;
     Line-height: 171%;
-    Align: Left;
+    align-self: Left;
     Vertical-align: Top;
     Letter-spacing: 6%;
 }
@@ -396,7 +396,7 @@ li div p {
     Font-size: 16px;
     Line-height: 30px;
     Line-height: 160%;
-    Align: Left;
+    align-self: Left;
     Vertical-align: Top;
     Letter-spacing: 3%;
 }
