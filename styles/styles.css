@@ -48,7 +48,7 @@ header {
 
 /* logo settings */
 .logo-h {
-    Font-family: Raleway;
+    Font-family: Raleway, sans-serif;
     Font-size: 26px;
     Line-height: 31px;
     Line-height: 100%;
@@ -59,7 +59,7 @@ header {
 }
 
 .logo-f {
-    Font-family: Raleway;
+    Font-family: Raleway, sans-serif;
     Font-size: 26px;
     Line-height: 31px;
     Line-height: 100%;
@@ -128,7 +128,7 @@ button {
 }
 
 .button1 {
-    Font-family: Roboto;
+    Font-family: Roboto, sans-serif;
     Font-style: Bold;
     Font-size: 16px;
     Line-height: 30px;
@@ -140,7 +140,7 @@ button {
 
 /* hero section settings */
 .hero {
-    font: Roboto;
+    font: Roboto, sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -211,7 +211,7 @@ address {
     letter-spacing: 3%;
     text-decoration: none;
     font-style: normal;
-    Font-family: Roboto;
+    Font-family: Roboto, sans-serif;
     Font-style: Regular;
     Font-size: 14px;
     Line-height: 24px;
@@ -337,7 +337,8 @@ main h2+a {
 }
 
 .portfolio-section-1 {
-    font: Roboto;
+    font: Roboto,
+        sans-serif;
     padding: 10px 20px;
     background-color: #E5E5E5;
     top: 80px;
@@ -348,7 +349,7 @@ main h2+a {
 }
 
 .portfoliobutton1 {
-    Font-family: Roboto;
+    Font-family: Roboto, sans-serif;
     Font-style: Medium;
     Font-size: 16px Line;
     height: 26px;
@@ -364,7 +365,7 @@ main h2+a {
 }
 
 .portfoliobutton2 {
-    Font-family: Roboto;
+    Font-family: Roboto, sans-serif;
     Font-style: Medium;
     Font-size: 16px Line;
     height: 26px;
@@ -382,7 +383,7 @@ main h2+a {
 
 li div h6 {
     color: #212121;
-    Font-family: Roboto;
+    Font-family: Roboto, sans-serif;
     Font-style: Bold;
     Font-size: 18px;
     Line-height: 36px;
@@ -394,7 +395,7 @@ li div h6 {
 
 li div p {
     color: #757575;
-    Font-family: Roboto;
+    Font-family: Roboto, sans-serif;
     Font-style: Regular;
     Font-size: 16px;
     Line-height: 30px;
