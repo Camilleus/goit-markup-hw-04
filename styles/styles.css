@@ -155,15 +155,18 @@ button {
 }
 
 .hero-header {
-    Font family: Roboto, sans-serif;
+    Font-family: Roboto, sans-serif;
     Font-style: Black;
     Font-size: 44px;
     Line-height: 60px;
     Line-height: 116%;
-    Align: Center Vertical;
-    align: Top;
+    align-self: Center Vertical;
+    align-self: Top;
     Letter-spacing: 6%;
-    Width: 696px; Height: 120px; Top: 280px; Left: 452px;
+    Width: 696px; 
+    Height: 120px; 
+    Top: 280px; 
+    Left: 452px;
 }
 
 /* Style the description section */
