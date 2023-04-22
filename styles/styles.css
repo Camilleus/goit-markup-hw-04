@@ -140,7 +140,7 @@ button {
 
 /* hero section settings */
 .hero {
-    font: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -152,6 +152,18 @@ button {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.hero-header {
+    Font family: Roboto, sans-serif;
+    Font-style: Black;
+    Font-size: 44px;
+    Line-height: 60px;
+    Line-height: 116%;
+    Align: Center Vertical;
+    align: Top;
+    Letter-spacing: 6%;
+    Width: 696px; Height: 120px; Top: 280px; Left: 452px;
 }
 
 /* Style the description section */
