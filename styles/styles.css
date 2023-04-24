@@ -1,11 +1,3 @@
-/* Applies to the entire body of the HTML document (except where overridden by more specific
-selectors). */
-
-html {
-    font-size: 16px;
-    font-family: 'roboto', sans-serif;
-}
-
 /* link to text fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
@@ -22,9 +14,10 @@ html {
 }
 
 body {
-
-    background-color: var(--backgroud-color) 
-    color: var(var(--black-color))
+    font-family: 'roboto', sans-serif;
+    background-color: var(--backgroud-color);
+    color: var(var(--black-color));
+    font-size: 16px;
 }
 
 main {
@@ -62,7 +55,7 @@ header {
     justify-content: space-between;
     background-color: var(--light-color);
     height: 80px;
-    letter-spacing: 6%; 
+    letter-spacing: 6%;
     top: 0;
     left: 0;
     right: 0;
@@ -124,7 +117,6 @@ nav a:last-child {
     height: 16px;
     left: 453px;
     top: 32px;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -138,8 +130,6 @@ nav a:last-child {
     height: 16px;
     left: 556px;
     top: 32px;
-
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -154,7 +144,6 @@ nav a:last-child {
     left: 656px;
     top: 32px;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -169,7 +158,6 @@ nav a:last-child {
     left: 1078px;
     top: 32px;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -184,7 +172,6 @@ nav a:last-child {
     left: 1263px;
     top: 32px;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -194,6 +181,10 @@ nav a:last-child {
 
 /* button settings */
 
+button {
+    cursor: pointer;
+}
+
 /* hero button settings */
 .button1 {
     color: var(--white-color);
@@ -202,8 +193,12 @@ nav a:last-child {
     height: 50px;
     border-radius: 4px;
     border: none;
-    top: 430px;
-    left: 700px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* hero section settings */
@@ -247,23 +242,20 @@ nav a:last-child {
 
 .sub-desc h4 {
     align-self: left;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    padding-left: 10px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
 }
 
 .sub-desc p {
-    font-family: normal;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
-
+    padding-left: 10px;
     letter-spacing: 0.03em;
     color: var(--secondary-color)
 }
@@ -282,11 +274,9 @@ nav a:last-child {
 }
 
 .desc2 {
-
+    padding-top: 5%;
     height: 42px;
     top: 969px;
-
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -300,7 +290,7 @@ nav a:last-child {
 h1 {
     font-size: 35px;
     font-weight: normal;
-    margin-top: 5px;
+    margin-top: 5%;
 }
 
 h2 {
@@ -315,8 +305,7 @@ h2 {
 }
 
 .bot-section-header {
-    top: 1543px;
-    font-style: normal;
+    padding-top: 5%;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -326,7 +315,7 @@ h2 {
 
 .card-container {
     align-items: center;
-    padding: 10px 20px;
+    padding: 2.5%;
 }
 
 .card {
@@ -351,8 +340,6 @@ h2 {
 
 .card p {
     text-align: center;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -400,7 +387,7 @@ li div p {
 }
 
 .button-container-portfolio {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding: 10px;
     margin: 10px;
@@ -417,7 +404,7 @@ li div p {
     background-color: var(--primary-color);
     border-radius: 4px;
     border: none;
-    margin-right:8px;
+    margin-right: 8px;
 }
 
 .portfoliobutton2 {
@@ -481,16 +468,14 @@ li div p {
 }
 
 .card-container2 {
-    align-items: center;
-    padding: 10px;
+    display: flex;
+    
 }
 
 .card2 {
     display: inline-block;
-    align-self: center;
     width: 370px;
-    margin-top: 100px;
-    margin: 30px;
+    margin:2%;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
@@ -509,8 +494,6 @@ li div p {
 .card2 p {
     margin-left: 20px;
     text-align: left;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -538,12 +521,10 @@ footer {
 
 address {
     align-items: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 3%;
     text-decoration: none;
-    font-style: normal;
     Font-size: 14px;
     Line-height: 24px;
     Line-height: 146%;
