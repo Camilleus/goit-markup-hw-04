@@ -314,8 +314,9 @@ h2 {
 }
 
 .card-container {
-    align-items: center;
     padding: 2.5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card {
@@ -468,14 +469,16 @@ li div p {
 }
 
 .card-container2 {
+    padding: 2.5%;
     display: flex;
-    
+    justify-content: space-between;
+
 }
 
 .card2 {
     display: inline-block;
     width: 370px;
-    margin:2%;
+    margin: 2%;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
