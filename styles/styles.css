@@ -218,7 +218,6 @@ button {
 
 .hero-header {
     Font-size: 44px;
-    Line-height: 60px;
     Line-height: 116%;
     Letter-spacing: 6%;
     Width: 696px;
@@ -244,7 +243,7 @@ button {
     align-self: left;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 100%;
     padding-left: 10px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -253,7 +252,7 @@ button {
 
 .sub-desc p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     /* or 171% */
     padding-left: 10px;
     letter-spacing: 0.03em;
@@ -279,7 +278,7 @@ button {
     top: 969px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 100%;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -308,7 +307,7 @@ h2 {
     padding-top: 5%;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 100%;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -333,7 +332,7 @@ h2 {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 100%;
 
     letter-spacing: 0.03em;
 
@@ -342,7 +341,7 @@ h2 {
 .card p {
     text-align: center;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 100%;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 
@@ -359,7 +358,6 @@ li div h6 {
     color: var(--dark-color);
     Font-style: Bold;
     Font-size: 18px;
-    Line-height: 36px;
     Line-height: 171%;
     align-self: Left;
     Vertical-align: Top;
@@ -370,7 +368,6 @@ li div p {
     color: var(--secondary-color);
     Font-style: Regular;
     Font-size: 16px;
-    Line-height: 30px;
     Line-height: 160%;
     align-self: Left;
     Vertical-align: Top;
@@ -488,7 +485,7 @@ li div p {
     text-align: left;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 200%;
 
     letter-spacing: 0.03em;
 
@@ -498,7 +495,7 @@ li div p {
     margin-left: 20px;
     text-align: left;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 188%;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 
@@ -525,11 +522,9 @@ footer {
 address {
     align-items: normal;
     font-size: 14px;
-    line-height: 24px;
     letter-spacing: 3%;
     text-decoration: none;
     Font-size: 14px;
-    Line-height: 24px;
     Line-height: 146%;
     Letter-spacing: 3%;
 }
