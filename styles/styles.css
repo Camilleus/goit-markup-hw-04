@@ -162,7 +162,7 @@ nav a:last-child {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .h-tel {
