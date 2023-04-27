@@ -120,7 +120,10 @@ nav a:last-child {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.agency:hover {
+        color: var(--primary-color);
 }
 
 .portfolio {
@@ -133,9 +136,11 @@ nav a:last-child {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: var(--secondary-color);
 }
-
+.portfolio:hover {
+    color: var(--primary-color);
+}
 .contact {
     position: absolute;
     width: 51px;
@@ -147,7 +152,10 @@ nav a:last-child {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: var(--secondary-color);
+}
+.contact:hover {
+    color: var(--primary-color);
 }
 
 .h-mail {
@@ -163,7 +171,9 @@ nav a:last-child {
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
-
+.h-mail:hover {
+    color: var(--primary-color);
+}
 .h-tel {
     position: absolute;
     width: 110px;
@@ -177,7 +187,9 @@ nav a:last-child {
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
-
+.h-tel:hover {
+    color: var(--primary-color);
+}
 /* button settings */
 
 button {
