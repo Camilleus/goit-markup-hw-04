@@ -59,6 +59,7 @@ header {
     left: 0;
     right: 0;
     z-index: 999;
+    border-bottom: 1px solid #ECECEC;
 }
 
 /* logo settings */
@@ -400,6 +401,7 @@ li div p {
 
 .portfolio-section-1 {
     background-color: var(--white-color);
+    color: var(--white-color);
     align-items: center;
 }
 
