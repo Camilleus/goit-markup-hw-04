@@ -52,7 +52,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--light-color);
+    background-color: var(--white-color);
     height: 80px;
     letter-spacing: 6%;
     top: 0;
@@ -399,7 +399,7 @@ li div p {
 
 
 .portfolio-section-1 {
-    background-color: #E5E5E5;
+    background-color: var(--white-color);
     align-items: center;
 }
 
