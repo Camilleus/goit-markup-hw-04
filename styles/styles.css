@@ -516,9 +516,8 @@ li div p {
 .card2 {
     display: inline-block;
     width: 370px;
-    margin: 2%;
     background: #FFFFFF;
-    border-bottom: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
 }
 
 .card2 h6 {
