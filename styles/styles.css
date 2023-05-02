@@ -518,7 +518,7 @@ li div p {
     width: 370px;
     margin: 2%;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .card2 h6 {
