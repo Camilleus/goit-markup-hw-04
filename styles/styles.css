@@ -233,6 +233,7 @@ button {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .hero-header {
@@ -250,6 +251,7 @@ button {
     padding: 50px;
     display: flex;
     flex-direction: column;
+        box-sizing: border-box;
 }
 
 .desc ul {
@@ -332,6 +334,7 @@ h2 {
 }
 
 .card-container {
+        box-sizing: border-box;
     width:1200px; 
     padding: 2.5%;
     display: flex;
@@ -399,10 +402,12 @@ li div p {
 
 
 .portfolio-section-1 {
+    box-sizing: border-box;
     align-items: center;
 }
 
 .button-container-portfolio {
+    box-sizing: border-box;
     display:inline-flex;
     align-items: center;
     padding: 10px;
@@ -507,6 +512,7 @@ li div p {
 }
 
 .card-container2 {
+    box-sizing: border-box;
     padding: 2.5%;
     display: flex;
     justify-content: space-between;
@@ -514,6 +520,7 @@ li div p {
 }
 
 .card2 {
+    box-sizing: border-box;
     display: inline-block;
     width: 370px;
     background: #FFFFFF;
