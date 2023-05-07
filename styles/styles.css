@@ -54,7 +54,6 @@ header {
     justify-content: space-between;
     background-color: var(--white-color);
     height: 80px;
-    letter-spacing: 6%;
     top: 0;
     left: 0;
     right: 0;
@@ -66,9 +65,7 @@ header {
 .logo-h {
     Font-family: Raleway, sans-serif;
     Font-size: 26px;
-    Line-height: 31px;
     Line-height: 100%;
-    Letter-spacing: 3%;
     color: var(--primary-color);
     position: absolute;
     width: 145px;
@@ -80,9 +77,7 @@ header {
 .logo-f {
     Font-family: Raleway, sans-serif;
     Font-size: 26px;
-    Line-height: 31px;
     Line-height: 100%;
-    Letter-spacing: 3%;
     color: var(--primary-color);
     width: 145px;
     height: 31px;
@@ -119,7 +114,6 @@ nav a:last-child {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
@@ -136,7 +130,6 @@ nav a:last-child {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
@@ -154,7 +147,6 @@ nav a:last-child {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
@@ -172,7 +164,6 @@ nav a:last-child {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
@@ -190,7 +181,6 @@ nav a:last-child {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 
@@ -217,7 +207,6 @@ button {
     line-height: 188%;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
 }
 
 /* hero section settings */
@@ -239,7 +228,6 @@ button {
 .hero-header {
     Font-size: 44px;
     Line-height: 116%;
-    Letter-spacing: 6%;
     Width: 696px;
     Height: 120px;
     Top: 280px;
@@ -266,7 +254,6 @@ button {
     font-size: 14px;
     line-height: 100%;
     padding-left: 10px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 
 }
@@ -276,7 +263,6 @@ button {
     line-height: 171%;
     /* or 171% */
     padding-left: 10px;
-    letter-spacing: 0.03em;
     color: var(--secondary-color)
 }
 
@@ -301,7 +287,6 @@ button {
     font-size: 36px;
     line-height: 100%;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 
@@ -329,7 +314,6 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
-    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -356,16 +340,12 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-
-    letter-spacing: 0.03em;
-
 }
 
 .card p {
     text-align: center;
     font-size: 16px;
     line-height: 100%;
-    letter-spacing: 0.03em;
     color: var(--secondary-color);
 
 }
@@ -383,7 +363,6 @@ li div h6 {
     Line-height: 171%;
     align-self: Left;
     Vertical-align: Top;
-    Letter-spacing: 6%;
 }
 
 li div p {
@@ -393,7 +372,6 @@ li div p {
     Line-height: 160%;
     align-self: Left;
     Vertical-align: Top;
-    Letter-spacing: 3%;
 }
 
 
@@ -407,10 +385,11 @@ li div p {
 }
 
 .button-container-portfolio {
-    box-sizing: border-box;
     display:inline-flex;
     align-items: center;
     padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
 
 }
 
@@ -442,8 +421,6 @@ li div p {
     width: 93px;
     height: 38px;
     margin-right: 8px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
 }
 
 .portfoliobutton2:hover {
@@ -462,8 +439,6 @@ li div p {
     width: 114px;
     height: 38px;
     margin-right: 8px;
-    background: #F5F4FA;
-    border-radius: 4px;
 }
 
 .portfoliobutton3:hover {
@@ -482,8 +457,6 @@ li div p {
     width: 91px;
     height: 38px;
     margin-right: 8px;
-    background: #F5F4FA;
-    border-radius: 4px;
 }
 
 .portfoliobutton4:hover {
@@ -502,8 +475,6 @@ li div p {
     width: 121px;
     height: 38px;
     margin-right: 8px;
-    background: #F5F4FA;
-    border-radius: 4px;
 }
 
 .portfoliobutton5:hover {
@@ -533,9 +504,6 @@ li div p {
     font-weight: 500;
     font-size: 16px;
     line-height: 200%;
-
-    letter-spacing: 0.03em;
-
 }
 
 .card2 p {
@@ -543,9 +511,7 @@ li div p {
     text-align: left;
     font-size: 16px;
     line-height: 188%;
-    letter-spacing: 0.03em;
     color: var(--secondary-color);
-
 }
 
 .card2 img {
@@ -569,11 +535,8 @@ footer {
 address {
     align-items: normal;
     font-size: 14px;
-    letter-spacing: 3%;
     text-decoration: none;
-    Font-size: 14px;
     Line-height: 146%;
-    Letter-spacing: 3%;
 }
 
 .f-link {
