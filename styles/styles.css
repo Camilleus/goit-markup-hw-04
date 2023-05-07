@@ -54,24 +54,18 @@ header {
     justify-content: space-between;
     background-color: var(--white-color);
     height: 80px;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
     border-bottom: 1px solid #ECECEC;
+    padding-left: 215px;
 }
 
 /* logo settings */
 .logo-h {
     Font-family: Raleway, sans-serif;
-    Font-size: 26px;
+    font-weight: 700;
+    font-size: 26px;
+    left: 215px;
     Line-height: 100%;
     color: var(--primary-color);
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
 }
 
 .logo-f {
@@ -79,10 +73,6 @@ header {
     Font-size: 26px;
     Line-height: 100%;
     color: var(--primary-color);
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 2157px;
 }
 
 .logo-h::after {
@@ -100,70 +90,25 @@ nav li {
     display: inline;
     gap: 20px;
     padding: 40px;
-}
-
-nav a:last-child {}
-
-.agency {
-    position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
 }
 
-.agency:hover {
-    color: var(--primary-color);
-}
-
-.portfolio {
-    position: absolute;
-    width: 51px;
-    height: 16px;
-    left: 556px;
-    top: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--secondary-color);
-}
-
-.portfolio:hover {
-    color: var(--primary-color);
-}
-
-.contact {
-    position: absolute;
-    width: 51px;
-    height: 16px;
-    left: 656px;
-    top: 32px;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--secondary-color);
-}
-
-.contact:hover {
+nav li:hover {
     color: var(--primary-color);
 }
 
 .h-mail {
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: var(--secondary-color);
+    margin: 25px;
+        gap: 20px;
+            padding: 40px;
 }
 
 .h-mail:hover {
@@ -171,12 +116,9 @@ nav a:last-child {}
 }
 
 .h-tel {
-    position: absolute;
-    width: 110px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-
+    margin: 25px;
+        gap: 20px;
+            padding: 40px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -209,10 +151,14 @@ button {
 }
 
 /* hero section settings */
+
+section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+}
 .hero {
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     height: 600px;
     color: var(--light-color);
     background-color: var(--dark-color);
@@ -225,12 +171,16 @@ button {
 }
 
 .hero-header {
+    margin-left: auto;
+    margin-right: auto;
     Font-size: 44px;
     Line-height: 116%;
-    Width: 696px;
-    Height: 120px;
-    Top: 280px;
-    Left: 452px;
+    font-weight: 900;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 /* Style the description section */
@@ -279,9 +229,8 @@ button {
 }
 
 .desc2 {
-    padding-top: 5%;
+    padding-top: 94px;
     height: 42px;
-    top: 969px;
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
@@ -425,7 +374,7 @@ li div p {
     width: 370px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    margin: 2.5%;
+    margin: 5%;
 }
 
 .card2 h6 {
