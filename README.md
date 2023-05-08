@@ -1,4 +1,4 @@
 Hello Everyone
-Its my second homework for GoIT :D
+Its my third homework for GoIT :D
 
-https://camilleus.github.io/goit-markup-hw-02/
+https://camilleus.github.io/goit-markup-hw-03/
