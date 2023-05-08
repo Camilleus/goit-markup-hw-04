@@ -230,6 +230,7 @@ section {
 .desc{
         display: flex;
         justify-content: center;
+        flex-grow: 1;
 }
 
 .desc ul li img {
@@ -238,6 +239,10 @@ section {
     height: 294px;
 }
 
+.sub-desc {
+            display: inline-block;
+        flex-grow: 1;
+}
 .sub-desc h4 {
     align-self: left;
     font-weight: 700;
