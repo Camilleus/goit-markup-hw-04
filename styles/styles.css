@@ -1,7 +1,9 @@
 /* link to text fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
+
 /* Set colors */
+
 :root {
     --primary-color: #2196F3;
     --secondary-color: #757575;
@@ -24,13 +26,17 @@ main {
 }
 
 
+
 /* links settings */
+
 a {
     text-decoration: none;
 }
 
 
+
 /* lists settings */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,13 +47,25 @@ ul {
 
 li {
     list-style: none;
-    margin: 0;
-    padding: 0;
     align-items: center;
 }
 
 
+/* Applies to all h1 and h2 elements. */
+
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
 /* header settings */
+
 header {
     display: flex;
     align-items: center;
@@ -85,7 +103,9 @@ header {
     color: var(--white-color);
 }
 
+
 /* navigation settings */
+
 nav li {
     display: inline;
     gap: 20px;
@@ -97,7 +117,11 @@ nav li {
     text-decoration: none;
 }
 
-nav li:hover {
+nav li a {
+    color: black;
+}
+
+nav li a:hover {
     color: var(--primary-color);
 }
 
@@ -107,8 +131,8 @@ nav li:hover {
     line-height: 16px;
     color: var(--secondary-color);
     margin: 25px;
-        gap: 20px;
-            padding: 40px;
+    gap: 20px;
+    padding: 40px;
 }
 
 .h-mail:hover {
@@ -117,8 +141,8 @@ nav li:hover {
 
 .h-tel {
     margin: 25px;
-        gap: 20px;
-            padding: 40px;
+    gap: 20px;
+    padding: 40px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -129,33 +153,21 @@ nav li:hover {
     color: var(--primary-color);
 }
 
+
 /* button settings */
 
 button {
     cursor: pointer;
 }
 
-/* hero button settings */
-.button1 {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    border: none;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 188%;
-    align-items: center;
-    text-align: center;
-}
 
 /* hero section settings */
 
 section {
-        padding-top: 94px;
-        padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 .hero {
     justify-content: space-between;
     align-items: center;
@@ -171,30 +183,55 @@ section {
 }
 
 .hero-header {
-    margin-left: auto;
-    margin-right: auto;
     Font-size: 44px;
     Line-height: 116%;
     font-weight: 900;
     line-height: 136%;
+    width: 696px;
+    height: 120px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
-/* Style the description section */
-.desc {
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
+/* hero button settings */
+
+.button1 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    align-items: center;
+    text-align: center;
 }
 
-.desc ul {
+
+/* Style of the description section */
+
+.descs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.descs ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+
+.desc ul li img {
+    object-fit: cover;
+    width: 370px;
+    height: 294px;
 }
 
 .sub-desc h4 {
@@ -210,47 +247,31 @@ section {
 .sub-desc p {
     font-size: 14px;
     line-height: 171%;
-    /* or 171% */
     padding-left: 10px;
     color: var(--secondary-color)
 }
 
-.desc h2 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-}
 
-.desc ul li img {
-    object-fit: cover;
-    width: 370px;
-    height: 294px;
-    padding: 20px;
-    margin: 20px;
-}
+/* Style of the "what we doing?" section */
 
-.desc2 {
-    padding-top: 94px;
+.desc2-header {
     height: 42px;
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
     text-align: center;
+    display: inline-block;
+    align-self: center;
 }
 
-
-
-/* Applies to all <h1>...</h1> elements. */
-h1 {
-    font-size: 35px;
-    font-weight: normal;
-    margin-top: 5%;
+.desc2 {
 }
 
-h2 {
-    font-size: 25px;
+.sub-desc2 {
+    margin:30px;
 }
 
-/* Style the team section */
+/* Style of the team section */
 
 .bot-section {
     background: #F5F4FA;
@@ -258,7 +279,6 @@ h2 {
 }
 
 .bot-section-header {
-    padding-top: 5%;
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
@@ -266,18 +286,14 @@ h2 {
 }
 
 .card-container {
-    box-sizing: border-box;
-    width: 1200px;
     padding: 2.5%;
     display: flex;
     justify-content: space-between;
 }
 
 .card {
-    display: inline-block;
     align-self: center;
     width: 270px;
-    /* add some spacing between the cards */
     margin: 30px;
     background-color: var(--light-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -328,17 +344,19 @@ li div p {
 
 
 .portfolio-section-1 {
-    box-sizing: border-box;
-    align-items: center;
+    display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-items: center;
 }
 
-.button-container-portfolio {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
 
+/* portfolio buttons settings */
+
+.portfolio-button-container {
+        display: flex;
+        justify-content: space-between;
 }
 
 .portfoliobutton {
@@ -361,20 +379,21 @@ li div p {
     background-color: var(--primary-color);
 }
 
-.card-container2 {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
 
+/* portfolio cards settings */
+
+.card-container2 {
+    margin-top: 50px;
+    display: inline-block;
 }
 
 .card2 {
-    box-sizing: border-box;
+    justify-content: space-between;
     display: inline-block;
     width: 370px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    margin: 5%;
+    margin: 30px;
 }
 
 .card2 h6 {
