@@ -83,9 +83,10 @@ header {
         display: flex;
             align-items: center;
             justify-content: space-evenly;
-    
+   
+            
 }
-/* logo settings */
+
 .logo-h {
     Font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -93,22 +94,9 @@ header {
     Line-height: 100%;
     color: var(--primary-color);
 }
-
-.logo-f {
-    Font-family: Raleway, sans-serif;
-    Font-size: 26px;
-    Line-height: 100%;
-    color: var(--primary-color);
-}
-
 .logo-h::after {
     content: attr(data-end);
     color: var(--black-color);
-}
-
-.logo-f::after {
-    content: attr(data-end);
-    color: var(--white-color);
 }
 
 
@@ -439,6 +427,19 @@ footer {
     padding-top: 15px;
     align-items: center;
 }
+
+.logo-f {
+    Font-family: Raleway, sans-serif;
+    Font-size: 26px;
+    Line-height: 100%;
+    color: var(--primary-color);
+}
+
+.logo-f::after {
+    content: attr(data-end);
+    color: var(--white-color);
+}
+
 address {
     align-items: normal;
     font-size: 14px;
