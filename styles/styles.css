@@ -50,6 +50,13 @@ li {
     align-items: center;
 }
 
+/* Container settings */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 
 /* Applies to all h1 and h2 elements. */
 
@@ -67,13 +74,14 @@ h2 {
 /* header settings */
 
 header {
-    display: flex;
+    display: inline-flex;
+    align-self: center;
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--white-color);
     height: 80px;
     border-bottom: 1px solid #ECECEC;
-    padding-left: 215px;
+    width:1600px;
 }
 
 /* logo settings */
@@ -81,7 +89,6 @@ header {
     Font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    left: 215px;
     Line-height: 100%;
     color: var(--primary-color);
 }
@@ -108,8 +115,7 @@ header {
 
 nav li {
     display: inline;
-    gap: 20px;
-    padding: 40px;
+    padding: 30px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -130,9 +136,6 @@ nav li a:hover {
     font-size: 14px;
     line-height: 16px;
     color: var(--secondary-color);
-    margin: 25px;
-    gap: 20px;
-    padding: 40px;
 }
 
 .h-mail:hover {
@@ -140,9 +143,6 @@ nav li a:hover {
 }
 
 .h-tel {
-    margin: 25px;
-    gap: 20px;
-    padding: 40px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -216,8 +216,6 @@ section {
 .descs {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
     align-items: center;
 }
 
@@ -294,16 +292,14 @@ section {
     text-align: center;
 }
 
-.card-container {
-    padding: 2.5%;
+.cards {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
 .card {
     align-self: center;
     width: 270px;
-    margin: 30px;
     background-color: var(--light-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -353,17 +349,13 @@ li div p {
 
 
 .portfolio-section-1 {
-    display: flex;
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
-        align-items: center;
+
 }
 
 
 /* portfolio buttons settings */
 
-.portfolio-button-container {
+.portfolio-buttons {
         display: flex;
     justify-content: center;
 }
@@ -391,9 +383,10 @@ li div p {
 
 /* portfolio cards settings */
 
-.card-container2 {
+.cards2 {
     margin-top: 50px;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-evenly;
 }
 
 .card2 {
@@ -402,7 +395,6 @@ li div p {
     width: 370px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    margin: 30px;
 }
 
 .card2 h6 {
