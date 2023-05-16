@@ -82,11 +82,12 @@ header {
 }
 
 .header {
-        display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-   
-            
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
 }
 
 .logo-h {
@@ -96,6 +97,7 @@ header {
     Line-height: 100%;
     color: var(--primary-color);
 }
+
 .logo-h::after {
     content: attr(data-end);
     color: var(--black-color);
@@ -217,10 +219,10 @@ section {
     margin-bottom: 50px;
 }
 
-.desc{
-        display: flex;
-        justify-content: center;
-        flex-grow: 1;
+.desc {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .desc ul li img {
@@ -230,9 +232,10 @@ section {
 }
 
 .sub-desc {
-            display: inline-block;
-        flex-grow: 1;
+    display: inline-block;
+    flex-grow: 1;
 }
+
 .sub-desc h4 {
     align-self: left;
     font-weight: 700;
@@ -263,11 +266,10 @@ section {
     align-self: center;
 }
 
-.desc2 {
-}
+.desc2 {}
 
 .sub-desc2 {
-    margin:30px;
+    margin: 30px;
 }
 
 /* Style of the team section */
@@ -286,7 +288,7 @@ section {
 
 .cards {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -300,6 +302,7 @@ section {
     text-decoration: none;
     color: var(--dark-color)
 }
+
 .card h3 {
     text-align: center;
     font-weight: 500;
@@ -344,15 +347,13 @@ li div p {
 /* portfolio settings */
 
 
-.portfolio-section-1 {
-
-}
+.portfolio-section-1 {}
 
 
 /* portfolio buttons settings */
 
 .portfolio-buttons {
-        display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -430,6 +431,7 @@ footer {
     right: 0;
     z-index: 999;
 }
+
 .footer {
     padding-top: 15px;
     align-items: center;
