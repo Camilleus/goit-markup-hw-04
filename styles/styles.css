@@ -85,7 +85,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 
 }
@@ -215,7 +215,7 @@ section {
 
 .mid-section ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
@@ -264,12 +264,6 @@ section {
     text-align: center;
     display: inline-block;
     align-self: center;
-}
-
-.desc2 {}
-
-.sub-desc2 {
-    margin: 30px;
 }
 
 /* Style of the team section */
