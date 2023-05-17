@@ -129,7 +129,10 @@ nav li a:hover {
     font-size: 14px;
     line-height: 16px;
     color: var(--secondary-color);
-    padding-right: 50px;
+}
+
+.h-mail-div {
+    padding: 10px;
 }
 
 .h-mail:hover {
@@ -141,8 +144,12 @@ nav li a:hover {
     font-size: 14px;
     line-height: 16px;
     color: var(--secondary-color);
+    gap: 10px;
 }
 
+.h-tel-div {
+        padding: 10px;
+}
 .h-tel:hover {
     color: var(--primary-color);
 }
@@ -234,6 +241,10 @@ section {
 .sub-desc {
     display: inline-block;
     flex-grow: 1;
+}
+.sub-desc img {
+    align-self: center;
+    display: flex;
 }
 
 .sub-desc h4 {
