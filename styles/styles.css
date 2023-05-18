@@ -180,6 +180,9 @@ section {
     flex-direction: column;
     text-align: center;
     box-sizing: border-box;
+    background-image: url(./images/mainpage/herobackgroundimg);
+    background-position: center;
+    max-width: 1600px;
 }
 
 .hero-header {
@@ -378,7 +381,7 @@ li div p {
 .section4-rectangle {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: c;
     box-sizing: border-box;
     width: 170px;
     height: 92px;
