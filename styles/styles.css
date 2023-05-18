@@ -142,7 +142,6 @@ nav li a:hover {
 .h-mail-div {
     padding: 10px;
 }
-
 .h-mail:hover {
     color: var(--primary-color);
 }
@@ -161,7 +160,9 @@ nav li a:hover {
 .h-tel:hover {
     color: var(--primary-color);
 }
-
+.h-tel img:hover {
+    color: var(--primary-color);
+} 
 
 /* button settings */
 
@@ -485,9 +486,14 @@ footer {
     z-index: 999;
 }
 
+.footer {
+    justify-content: flex-start;
+    display: flex;
+}
 .footer1 {
     padding-top: 15px;
     align-items: center;
+    margin-left:0px;
 }
 
 .logo-f {
