@@ -56,16 +56,20 @@ li {
 
 svg {
     color: var(--secondary-color)
+    fill: var(--secondary-color);
 }
 
 svg path {
+    color: var(--secondary-color)
     fill: var(--secondary-color);
 }
 
 svg:hover {
     color: var(--primary-color);
+    fill: var(--primary-color);
 }
 svg path:hover {
+    color: var(--primary-color);
     fill: var(--primary-color);
 }
 
