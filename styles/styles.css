@@ -570,6 +570,14 @@ address {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer2 {
+    width:206px;
+    height: 80px;
+    justify-content: space-between;
+    padding:30px;
+    padding-left:60px;
+} 
+
 .footer2 h5 {
     font-weight: 700;
         font-size: 14px;
