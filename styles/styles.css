@@ -12,6 +12,7 @@
     --dark-color: #212121;
     --black-color: #000000;
     --footer-color: #2F303A;
+    --footer-ellipse-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Basic settings */
@@ -55,37 +56,12 @@ li {
     list-style: none;
     align-items: center;
 }
-
-svg {
-    color: var(--secondary-color)
-}
-
-svg path {
-    color: var(--secondary-color)
-}
-
-svg:hover {
-    color: var(--primary-color);
-    fill: var(--primary-color);
-}
-svg path:hover {
-    color: var(--primary-color);
-    fill: var(--primary-color);
-}
+ 
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
 }
 
 h1 {
@@ -102,6 +78,48 @@ button {
     cursor: pointer;
 }
 
+/* SVGs settings */
+
+
+svg {
+    color: var(--secondary-color)
+}
+
+svg path {
+    color: var(--secondary-color)
+}
+
+svg:hover {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+svg path:hover {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.hidden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 
 /* header settings */
@@ -150,10 +168,12 @@ nav li {
 
 nav li a {
     color: var(--secondary-color);
+    fill: var(--secondary-color)
 }
 
 nav li a:hover {
     color: var(--primary-color);
+    fill: var(--primary-color);
 }
 
 .h-mail {
@@ -574,8 +594,11 @@ address {
     padding:10px;
     display:flex;
     justify-content: space-between;
+    fill:var(--white-color)
 }
 .footer2-socials:hover {
     color: var(--primary-color);
-    color: var(--white-color);
+}
+footer .hidden{
+    fill: var(--footer-ellipse-color);
 }
