@@ -191,7 +191,6 @@ section {
     box-sizing: border-box;
     background-image: url(./images/mainpage/herobackgroundimg);
     background-position: center;
-    max-width: 1600px;
 }
 
 .hero-header {
@@ -255,9 +254,11 @@ section {
     flex-grow: 1;
 }
 
-.sub-desc img {
+.sub-desc svg {
     align-self: center;
     display: flex;
+    width: 70px;
+    height:70px
 }
 
 .sub-desc-rectangle {
@@ -268,7 +269,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
+        color: var(--secondary-color)
+}
+.sub-desc-rectangle:hover {
+    color:var(--primary-color)
 }
 
 .sub-desc h4 {
