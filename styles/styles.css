@@ -558,7 +558,6 @@ address {
 .footer2 {
     width:206px;
     height: 80px;
-    justify-content: space-between;
     padding:30px;
     padding-left:60px;
 } 
@@ -573,6 +572,8 @@ address {
 }
 .footer2-socials {
     padding:10px;
+    display:flex;
+    justify-content: space-between;
 }
 .footer2-socials:hover {
     color: var(--primary-color);
