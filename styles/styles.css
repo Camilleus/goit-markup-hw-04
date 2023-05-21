@@ -436,7 +436,9 @@ li div p {
 
 /* portfolio settings */
 
-.portfolio-section-1 {}
+.portfolio-section-1 {
+    padding-top:94px;
+}
 
 
 /* portfolio buttons settings */
