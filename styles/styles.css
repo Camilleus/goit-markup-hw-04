@@ -14,6 +14,8 @@
     --footer-color: #2F303A;
 }
 
+/* Basic settings */
+
 body {
     font-family: 'roboto', sans-serif;
     background-color: var(--white-color);
@@ -24,6 +26,11 @@ body {
 
 main {
     top: 80px;
+}
+
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 img {
@@ -81,20 +88,6 @@ svg path:hover {
     fill: currentColor;
 }
 
-.hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 h1 {
     font-size: 35px;
     font-weight: normal;
@@ -105,9 +98,13 @@ h2 {
     font-size: 25px;
 }
 
+button {
+    cursor: pointer;
+}
+
+
 
 /* header settings */
-
 
 header {
     background-color: var(--white-color);
@@ -140,7 +137,7 @@ header {
 }
 
 
-/* navigation settings */
+/* header navigation settings */
 
 nav li {
     display: inline;
@@ -170,19 +167,7 @@ nav li a:hover {
     line-height: 16px;
 }
 
-/* button settings */
-
-button {
-    cursor: pointer;
-}
-
-
 /* hero section settings */
-
-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .hero {
     align-items: center;
@@ -229,7 +214,7 @@ section {
 }
 
 
-/* Style of the description section */
+/* Style of the "Our Qualities" section */
 
 .section2 {
     display: flex;
@@ -299,7 +284,7 @@ section {
 }
 
 
-/* Style of the "what we doing?" section */
+/* Style of the "What we doing?" section */
 
 .desc2-header {
     height: 42px;
@@ -311,7 +296,8 @@ section {
     align-self: center;
 }
 
-/* Style of the team section */
+
+/* Style of the "Our Team" section */
 
 .section3 {
     background: #F5F4FA;
@@ -392,6 +378,8 @@ li div p {
     width: 100%;
     padding: 30px;
 }
+
+
 /* Style of the "Our Clients" section */
 
 .section4 {
@@ -434,15 +422,14 @@ li div p {
     height:60px;
 }
 
-/* portfolio settings */
+
+
+/* Portfolio settings */
 
 .portfolio-section-1 {
     padding-top:94px;
     padding-bottom:94px;
 }
-
-
-/* portfolio buttons settings */
 
 .portfolio-buttons {
     display: flex;
@@ -469,9 +456,6 @@ li div p {
     background-color: var(--primary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-
-/* portfolio cards settings */
 
 .cards2 {
     margin-top: 50px;
