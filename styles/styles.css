@@ -256,6 +256,7 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     flex-grow: 1;
+    
 }
 
 .desc ul li img {
@@ -400,10 +401,29 @@ li div p {
     align-self: center;
     justify-content: space-evenly;
     width: 100%;
-    padding: 30px;
-    fill: var(--secondary-color)
+    padding: 20px;
+    fill: var(--secondary-color);
 }
 
+.card-socialmedia-item {
+    width: 44px;
+    height: 44px;
+    background-image: url(../images/icons.svg#icon-ellipse);
+    background: var(--light-color);
+    background-size: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.card-socialmedia-item:hover {
+        background: var(--primary-color);
+        fill: var(--white-color);
+}
+
+.card-socialmedia:focus, .card-socialmedia:hover {
+    fill: var(--white-color);
+}
 
 /* Style of the "Our Clients" section */
 
@@ -612,17 +632,34 @@ address ul {
     text-transform: uppercase;
     color: var(--white-color);
 }
+
+.footer2-socials-item {
+    height: 44px;
+    width: 44px;
+    background-image: url(../images/icons.svg#icon-ellipse);
+    background: rgba(255, 255, 255, 0.1);
+    background-size: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer2-socials-item:hover {
+    cursor: pointer;
+    background: var(--primary-color);
+}
+
 .footer2-socials {
     width: 206px;
     height:44px;
     display:flex;
     justify-content: space-between;
-    fill:var(--white-color)
+    fill:var(--white-color);
+
 }
-.footer2-socials:hover {
-    color: var(--primary-color);
-    cursor: pointer;
+.footer2-social {
+    fill: var(--white-color);
 }
-footer .hidden{
-    fill: var(--footer-ellipse-color);
+.footer2-social:hover {
+    fill: var(--white-color);
 }
