@@ -190,22 +190,23 @@ nav li a:hover {
     line-height: 16px;
 }
 
+
 /* hero section settings */
 
 .hero {
         align-items: center;
         height: 600px;
-        color: var(--light-color);
-        background-color: var(--dark-color);
         background-size: cover;
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
         box-sizing: border-box;
-        background-image: url(./images/mainpage/herobackgroundimg.jpg);
         background-position: center;
-}
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/mainpage/herobackgroundimg.jpg);
+    }
 
 .hero-header {
     Font-size: 44px;
@@ -283,11 +284,10 @@ nav li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-        color: var(--secondary-color)
+        color: var(--secondary-color);
 }
 .sub-desc-rectangle:hover {
-    color:var(--primary-color)
-    cursor: pointer;
+    color:var(--primary-color);
 }
 
 .sub-desc h4 {
@@ -440,7 +440,7 @@ li div p {
 .section4-rectangle:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    fill:var(--primary-color)
+    fill:var(--primary-color);
     cursor: pointer;
 }
 .section4-client {
